@@ -234,6 +234,69 @@
             color: #526174;
         }
 
+        html.dark .nav-btn.border-l-4,
+        html.dark #nav-dashboard:not(.opacity-80) {
+            color: #E6A0B0 !important;
+            border-left-color: #800020 !important;
+            background-color: rgba(128, 0, 32, 0.16) !important;
+        }
+
+        html.light .nav-btn.border-l-4,
+        html.light #nav-dashboard:not(.opacity-80) {
+            color: #6B1111 !important;
+            border-left-color: #800020 !important;
+            background-color: rgba(128, 0, 32, 0.08) !important;
+        }
+
+        #nav-dashboard > div > div:first-child {
+            background-color: rgba(128, 0, 32, 0.2) !important;
+        }
+
+        html.dark #nav-dashboard > div > div:first-child,
+        html.dark #bnav-dashboard:not(.text-slate-400),
+        html.dark #toast-container > .theme-card {
+            color: #E6A0B0 !important;
+        }
+
+        html.light #nav-dashboard > div > div:first-child,
+        html.light #bnav-dashboard:not(.text-slate-400),
+        html.light #toast-container > .theme-card {
+            color: #6B1111 !important;
+        }
+
+        #toast-container > .theme-card {
+            border-color: rgba(128, 0, 32, 0.4) !important;
+        }
+
+        #hs-album-status[class~="bg-amber-500/10"],
+        #roster-load-status[class~="bg-amber-500/10"] {
+            background-color: rgba(128, 0, 32, 0.1) !important;
+            border-color: rgba(128, 0, 32, 0.4) !important;
+        }
+
+        #report-queue-status:not([class~="bg-rose-500/10"]) {
+            background-color: rgba(128, 0, 32, 0.1) !important;
+            border-color: rgba(128, 0, 32, 0.4) !important;
+        }
+
+        html.dark #report-queue-status:not([class~="bg-rose-500/10"]) {
+            color: #E6A0B0 !important;
+        }
+
+        html.light #report-queue-status:not([class~="bg-rose-500/10"]) {
+            color: #6B1111 !important;
+        }
+
+        html.dark #hs-album-status[class~="bg-amber-500/10"],
+        html.dark #roster-load-status[class~="bg-amber-500/10"] {
+            color: #E6A0B0 !important;
+        }
+
+        html.light #hs-album-status[class~="bg-amber-500/10"],
+        html.light #roster-load-status[class~="bg-amber-500/10"] {
+            color: #6B1111 !important;
+        }
+
         @media (max-width: 640px) {
             button {
                 min-height: 44px;
