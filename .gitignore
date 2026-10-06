@@ -1,0 +1,20 @@
+# Local credentials and Apps Script CLI configuration
+.env
+.env.*
+.clasp.json
+
+# Dependencies, caches, and temporary files
+node_modules/
+.cache/
+cache/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
